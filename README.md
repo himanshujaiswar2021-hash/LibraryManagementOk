@@ -20,7 +20,7 @@ run.bat
 
 ## Jenkins
 
-The root `Jenkinsfile` runs on a Jenkins agent labeled `windows` with Node.js 22.5 or newer available on `PATH`. It checks the Node.js version and validates the server, database, and browser JavaScript syntax. The project has no npm dependencies to install.
+The root `Jenkinsfile` runs on any Jenkins agent with Node.js 22.5 or newer available on `PATH`. It checks the Node.js version and validates the server, database, and browser JavaScript syntax. The pipeline supports both Windows and Unix agents. The project has no npm dependencies to install.
 
 ## Features
 
